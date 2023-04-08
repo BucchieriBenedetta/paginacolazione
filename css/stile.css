@@ -1,0 +1,131 @@
+main {
+    font-family: Helvetica, sans-serif;
+    }
+
+h1 {
+    color: #ff3d00;
+    font-family: Helvetica, sans-serif;
+    margin: 30px;
+    font-size: 40px;
+}
+
+section.hero {
+    background: rgba(255, 61, 0, 70%)
+}
+
+img {
+    max-width: 1503px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    font-family: Helvetica, sans-serif;
+    margin-right: 50px;
+    font-size: 30px;
+    gap: 60px;
+}
+
+li.accedi {
+    background-color: #ff3d00;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+}
+
+li.registrati {
+    background-color: #ff3d00;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+}
+
+header {
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+section.europa img {
+    object-fit: cover;
+    width:180px;
+    border-radius: 300px;
+}
+
+section h2 {
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+section ul {
+    font-size: 20px;
+    align-self: flex-end;
+    position: absolute;
+    margin-left: 200px;
+}
+
+
+section.europa {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: rgba(255, 61, 0, 70%)
+}
+
+section.asia {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: rgba(255, 214, 0, 71%)
+}
+
+section.asia img {
+    object-fit: cover;
+    width:180px;
+    border-radius: 300px;
+}
+
+section.america {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: rgba(0, 56, 255, 50%)
+}
+
+section.america img {
+    object-fit: cover;
+    width:180px;
+    border-radius: 300px;
+}
+
+div {
+    margin: 50px;
+    padding left: 0;
+    border-radius: 300px;
+    background-color: white;
+    display: flex;
+    width: 600px;
+}
+
+
+footer p {
+    font-family: Helvetica, sans-serif;
+    font-size: 30px;
+    max-width: 550px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+footer img {
+    max-width: 50px;
+    padding-left: 50px;
+}
+
+footer {
+    padding-bottom: 50px;
+}
